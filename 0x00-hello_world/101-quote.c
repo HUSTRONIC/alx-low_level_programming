@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * main – prints  output of Dora’s quote
+ * main – print output of Dora’s quote
  *
- * Description: prints Dora's quote
+ * Description: program that displays Dora’s quote
  *
  * Return: Always 1 (Success)
  */
