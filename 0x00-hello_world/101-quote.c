@@ -4,7 +4,7 @@
 /**
  * main – print output of Dora’s quote
  *
- * Description: program that displays Dora’s quote for the programe
+ * Description: print program that displays Dora’s quote for the programe
  *
  * Return: Always 1 (Success)
  */
