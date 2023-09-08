@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main – outputs Dora’s quote
+ * main – prints  output of Dora’s quote
  *
  * Description: prints Dora's quote
  *
