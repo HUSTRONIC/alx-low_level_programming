@@ -7,19 +7,19 @@
 */
 int main(void)
 {
-	char c;
+	int c;
 
-	char d;
+	int d;
 
-	c = 'a';
-	d = 'A';
+	c = 97;
+	d = 65;
 	while
-		(c <= 'z') {
+		(c <=122) {
 			putchar(c);
 			c++;
 		}
 	while
-		(d <= 'z') {
+		(d <= 90) {
 			putchar(d);
 			d++;
 		}
