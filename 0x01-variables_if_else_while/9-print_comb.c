@@ -5,7 +5,7 @@
 * Return: always (0)
 *
 */
-int main(vopid)
+int main(void)
 {
 	int n;
 
