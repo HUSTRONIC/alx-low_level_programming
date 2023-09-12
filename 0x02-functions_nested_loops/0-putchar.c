@@ -1,7 +1,9 @@
 #include "main.h"
+
 /**
 * main – prints putchar
-*description: function that prints putchar
+* description: function that prints putchar
+* program contains and prints _putchar without using other functions
 * Return: always (0)
 *
 */
@@ -15,6 +17,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 	return (0);
 
 }
