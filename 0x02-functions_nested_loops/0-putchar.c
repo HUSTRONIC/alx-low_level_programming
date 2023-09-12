@@ -3,9 +3,7 @@
 /**
 * main – prints putchar
 * description: function that prints putchar
-* program contains and prints _putchar without using other functions
 * Return: always (0)
-*
 */
 int main(void)
 {
