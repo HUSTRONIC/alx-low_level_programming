@@ -9,7 +9,7 @@ int main(void)
 {
 	int limit = 4000000;
 	int term1 = 1;
-	int term1 = 2;
+	int term2 = 2;
 	int next;
 	int sum = 2;
 
