@@ -2,28 +2,27 @@
 
 /**
  * main - program that finds and prints the largest prime factor
- * number 612852475143
+ * of the number 612852475143
  * Return: (0)
  */
 
 int main(void)
 {
-	long int i, n, d;
+		long long n = 612852475143;
+		long long largestPrime = 0;
 
-	n = 612852475143;
-
-	for (i = 1; i <= n; i++)
-	{
-		if (n % i == 0)
+		for (long long i = 2; i <= n;)
 		{
-			if (n == 1)
+			if (n % i == 0)
 			{
-				printf("%ld\n", i);
-				break;
+				n /= i;
+				largestPrime = i;
 			}
-			d = n / i;
-			n = d;
+			else
+			{
+				i++;
+			}
 		}
-	}
+	printf("%lld\n", largestPrime);
 	return (0);
 }
