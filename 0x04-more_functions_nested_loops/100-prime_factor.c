@@ -10,8 +10,9 @@ int main(void)
 {
 		long n = 612852475143;
 		long largestPrime = 0;
+		long i;
 
-		for (long i = 2; i <= n;)
+		for (i = 2; i <= n;)
 		{
 			if (n % i == 0)
 			{
