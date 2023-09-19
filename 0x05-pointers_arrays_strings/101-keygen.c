@@ -27,5 +27,6 @@ int main(void)
 			break;
 		}
 	}
+	printf("%s", pass);
 	return (0);
 }
