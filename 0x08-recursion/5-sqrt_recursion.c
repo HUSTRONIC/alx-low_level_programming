@@ -3,7 +3,7 @@
 int actual_sqrt_recursion(int n);
 
 /**
- * _sqrt_recursion - function that returns the natural 
+ * _sqrt_recursion - function that returns the natural
  * square root of a number
  * @n: number to be used to calculate the square
  * Return: square root
