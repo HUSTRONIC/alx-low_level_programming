@@ -42,11 +42,9 @@ char *_strdup(char *str)
 
 
 
-	k = 0;
-	while (s[k])
-		k++;
+	for (k = 0; str[k]; k++)
 
-		a[k] = s[k];
+		a[k] = str[k];
 
 
 
