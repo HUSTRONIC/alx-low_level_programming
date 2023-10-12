@@ -17,9 +17,9 @@ void print_all(const char * const format, ...)
 	va_start(v, format);
 	while (format && format[i])
 	{
-		for (k = 0; t_arg[k] k++)
+		for (k = 0; t_arg[k]; k++)
 		{
-			if (format[i] == t_arg[j] && c)
+			if (format[i] == t_arg[k] && c)
 			{
 				printf(", ");
 				break;
