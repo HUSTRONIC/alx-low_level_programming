@@ -11,13 +11,13 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list v;
-	unsigned int i;
+	unsigned int j;
 	char *stng;
 
 	va_start(v, n);
 
 	j = 0;
-	while (j < n;)
+	while (j < n)
 	{
 		stng = va_arg(v, char *);
 
