@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
-
 /**
 * main - The program which copies the content
 * of a file to another file
@@ -10,7 +9,6 @@
 * @argv: function parameters
 * Return: 0
 */
-
 int main(int argc, char *argv[])
 {
 	int str_f_file, end_f_file;
@@ -28,7 +26,8 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 		}
-	end_f_file = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
+	end_f_file = open(argv[2], O_WRONLY | O_CREAT
+	| O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
 	if (end_f_file == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
